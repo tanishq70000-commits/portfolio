@@ -4,12 +4,12 @@ import { Github } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
-      title: "Crypto Hunter",
-      subtitle: "Real-Time Cryptocurrency Tracker",
+      title: "Splitwise Clone",
+      subtitle: "Expense Sharing Web App",
       date: "Dec 2024",
-      desc: "Improved a cryptocurrency tracking system that allows users to monitor real-time market prices, save favorite cryptocurrencies, and access news updates. Secure backend services with JWT authentication.",
-      tech: ["React.js", "Node.js", "Express.js", "Firebase", "JWT"],
-      github: "https://github.com/tanishqT"
+      desc: "Built a full-stack expense sharing application that allows users to add, split, and track expenses in real time. Implemented authentication, REST APIs, and dynamic balance calculation with a responsive UI, demonstrating strong full-stack development skills.",
+      tech: ["React.js", "Node.js", "Express.js", "REST APIs", "Authentication"],
+      github: "https://github.com/Akhand0ps/splitwise"
     },
     {
       title: "Smart Parking System",
