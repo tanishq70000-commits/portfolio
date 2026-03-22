@@ -58,7 +58,16 @@ const Projects = () => {
               </div>
               <span>{project.date}</span>
             </div>
-            <h3 className="project-title">{project.title}</h3>
+            <a href={project.github} target="_blank" rel="noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
+              <h3 
+                className="project-title" 
+                style={{ transition: 'color 0.3s', cursor: 'pointer' }} 
+                onMouseOver={(e) => e.target.style.color = '#3b82f6'} 
+                onMouseOut={(e) => e.target.style.color = 'inherit'}
+              >
+                {project.title}
+              </h3>
+            </a>
             {project.subtitle && <h4 className="project-subtitle">{project.subtitle}</h4>}
             <p className="project-desc">{project.desc}</p>
             <div className="project-tech">
