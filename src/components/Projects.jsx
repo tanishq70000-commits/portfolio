@@ -9,7 +9,7 @@ const Projects = () => {
       date: "Dec 2024",
       desc: "Built a full-stack expense sharing application that allows users to add, split, and track expenses in real time. Implemented authentication, REST APIs, and dynamic balance calculation with a responsive UI, demonstrating strong full-stack development skills.",
       tech: ["React.js", "Node.js", "Express.js", "REST APIs", "Authentication"],
-      github: "https://github.com/Akhand0ps/splitwise",
+      github: "https://github.com/tanishq70000-commits/splitwisee",
       live: "https://spl-two.vercel.app/"
     },
     {
