@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Github } from 'lucide-react';
+import { Github, ExternalLink } from 'lucide-react';
 
 const Projects = () => {
   const projects = [
@@ -25,7 +25,8 @@ const Projects = () => {
       date: "Feb 2025",
       desc: "Developed a backend server for SoleCraft using Node.js and REST APIs to handle user requests, data management, and server-side logic, demonstrating strong skills in backend development and API design.",
       tech: ["Node.js", "Express.js", "REST APIs", "Backend"],
-      github: "https://github.com/tanishq70000-commits/solecraft-server"
+      github: "https://github.com/tanishq70000-commits/solecraft-server",
+      live: "https://solecraft-ten.vercel.app/"
     }
   ];
 
@@ -51,10 +52,15 @@ const Projects = () => {
             transition={{ duration: 0.6, delay: index * 0.1 }}
           >
             <div className="project-header">
-              <div className="project-links">
-                <a href={project.github} target="_blank" rel="noreferrer" title="GitHub">
+              <div className="project-links" style={{ display: 'flex', gap: '1rem' }}>
+                <a href={project.github} target="_blank" rel="noreferrer" title="GitHub Source">
                   <Github size={24} />
                 </a>
+                {project.live && (
+                  <a href={project.live} target="_blank" rel="noreferrer" title="Live Project">
+                    <ExternalLink size={24} />
+                  </a>
+                )}
               </div>
               <span>{project.date}</span>
             </div>
