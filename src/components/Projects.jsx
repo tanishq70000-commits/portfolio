@@ -20,12 +20,12 @@ const Projects = () => {
       github: "https://github.com/tanishq70000-commits/smart-parking"
     },
     {
-      title: "AI-Powered Real-Time Quiz App",
-      subtitle: "",
+      title: "SoleCraft Server",
+      subtitle: "Backend API Project",
       date: "Feb 2025",
-      desc: "Created a real-time quiz platform with WebSockets and AI-generated questions from prompts, multiplayer rooms, and live scoring dashboards. Optimized for 100+ participants simultaneously.",
-      tech: ["Python", "Node.js", "React.js", "MongoDB"],
-      github: "https://github.com/tanishqT"
+      desc: "Developed a backend server for SoleCraft using Node.js and REST APIs to handle user requests, data management, and server-side logic, demonstrating strong skills in backend development and API design.",
+      tech: ["Node.js", "Express.js", "REST APIs", "Backend"],
+      github: "https://github.com/tanishq70000-commits/solecraft-server"
     }
   ];
 
