@@ -17,7 +17,7 @@ const Projects = () => {
       date: "June 2025",
       desc: "Developed a Python-Django based parking system using Min Heap & Hash Maps for automated slot allocation, digital billing, and live dashboards. Designed for scalability in multi-floor facilities.",
       tech: ["Python", "Django", "DSA", "HTML/CSS/JS"],
-      github: "https://github.com/tanishqT"
+      github: "https://github.com/tanishq70000-commits/smart-parking"
     },
     {
       title: "AI-Powered Real-Time Quiz App",
